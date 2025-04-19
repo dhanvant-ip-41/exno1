@@ -22,6 +22,7 @@ STEP 6: Use zscore of to remove outliers
 
 # Coding and Output
 REG NO : 212224040070
+
 NAME : Dhanvant Kumar V
 
 ```python
@@ -131,6 +132,8 @@ df.dropna(inplace=True)
 sns.heatmap(df.isnull(),yticklabels=False,annot=True)
 ```
 ![alt text](<Screenshot 2025-04-19 091912.png>)
+
+##OUTLIERS DETECTION AND REMOVAL USING IQR
 ```python
 age=[1,3,28,27,25,92,30,39,40,50,26,24,29,94]
 dr=pd.DataFrame(age)
