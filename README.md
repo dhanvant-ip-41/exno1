@@ -133,7 +133,7 @@ sns.heatmap(df.isnull(),yticklabels=False,annot=True)
 ```
 ![alt text](<Screenshot 2025-04-19 091912.png>)
 
-##OUTLIERS DETECTION AND REMOVAL USING IQR
+## OUTLIERS DETECTION AND REMOVAL USING IQR
 ```python
 age=[1,3,28,27,25,92,30,39,40,50,26,24,29,94]
 dr=pd.DataFrame(age)
